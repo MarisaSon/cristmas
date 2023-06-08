@@ -1,0 +1,85 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1603793303277-ed67787545e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2FudGF8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-size: 60px;
+    padding: 20px;
+    border: solid 3px;
+    background-color: rgba(251, 248, 249, 0.9);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.happy{
+    height: 300px;
+    width: 200px;
+    margin-top: 50px;
+    border: solid black 3px;
+    background-color: rgba(251, 248, 249, 0.82); 
+}
+.time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.days, .hours, .minutes, .seconds {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+.santa{
+    font-size: 60px;
+    font-family: 'Staatliches', cursive;
+    border: none;
+    color: red;
+}
+
+button{
+    margin-left: 100px;
+    border: none;
+}
+
+@media all and (max-width:800px){
+h1{
+    font-size: 40px;
+}
+}
+
+@media all and (max-width:500px){
+    body{
+        background-image: url(https://images.unsplash.com/photo-1638589766631-feac3a2608d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNyaXN0bWFzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
+        
+    }
+    
+    h1{
+        font-size: 30px;
+    }
+    .days, .hours, .minutes, .seconds {
+        font-size: 25px;
+}
+h3{
+    font-size: 25px;
+}
+.happy{
+    height: 200px;
+    width: 150px;
+}
+button{
+    margin-left: 50px;
+}
+}
